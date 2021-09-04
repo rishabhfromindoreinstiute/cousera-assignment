@@ -1,10 +1,13 @@
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-for(var i=0;i<names.length;i++){
+
+(function(){
+	for(var i=0;i<names.length;i++){
 	if(names[i].charAt(0) ==='j'|| names[i].charAt(0) ==='J'){
-		console.log("Goodbye "+names[i]);
+		console.log(byeSpeaker.names[i]);
 	}
 	else{
-		console.log("Hello "+names[i]);
+		console.log(helloSpeaker.names[i]);
 	}
 }
+})();
